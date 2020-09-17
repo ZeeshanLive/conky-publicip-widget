@@ -13,4 +13,6 @@ step 4: once you have selected the widget and small widget popup on the bottom r
 
 ![alt_text](https://github.com/ZeeshanLive/conky-publicip-widget/blob/master/2020-09-17_12-21.png)
 
-step 5: 
+step 5: make sure the widget gets started on every boot got widget settings and select "run conky at system startup"
+
+![alt_text](https://github.com/ZeeshanLive/conky-publicip-widget/blob/master/2020-09-17_12-29.png)
