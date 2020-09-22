@@ -37,3 +37,4 @@ own_window_argb_visual no
 own_window_colour 000000
 TEXT
 IP:${execi 3 dig +short myip.opendns.com @resolver1.opendns.com}
+IST:${execi 5 TZ=Asia/Kolkata date +"%I:%M %p"}
