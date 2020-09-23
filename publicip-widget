@@ -37,4 +37,5 @@ own_window_argb_visual no
 own_window_colour 000000
 TEXT
 IP:${execi 3 dig +short myip.opendns.com @resolver1.opendns.com}
-IST:${execi 5 TZ=Asia/Kolkata date +"%I:%M %p"}
+Location: ${execi 3 curl -s https://ipvigilante.com/$(curl -s https://ipinfo.io/ip) | jq '.data.country_name'} | IST:${execi 3 TZ=Asia/Kolkata date +"%I:%M %p"}
+
